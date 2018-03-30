@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Comfortaa Light'), local('Comfortaa-Light'), url(https://fonts.gstatic.com/s/comfortaa/v10/r_tUZNl0G8xCoOmp_JkSCvOEPOIfcPv-fZ-WyMUtx48.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/-DackuIFgo7Hfy3rR14C36CWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI_OEPOIfcPv-fZ-WyMUtx48.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/RjgO7rYTmqiVp7vzi-Q5UaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+@charset "UTF-8";
+
+/* gimnasterka */
+@font-face {
+  font-family: "gimnasterka";
+  src:url("https://file.myfontastic.com/2VyfX6JZQCTkRJPGHLB8QT/fonts/1499962499.eot");
+  src:url("https://file.myfontastic.com/2VyfX6JZQCTkRJPGHLB8QT/fonts/1499962499.eot?#iefix") format("embedded-opentype"),
+    url("https://file.myfontastic.com/2VyfX6JZQCTkRJPGHLB8QT/fonts/1499962499.woff") format("woff"),
+    url("https://file.myfontastic.com/2VyfX6JZQCTkRJPGHLB8QT/fonts/1499962499.ttf") format("truetype"),
+    url("https://file.myfontastic.com/2VyfX6JZQCTkRJPGHLB8QT/fonts/1499962499.svg#1499962499") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "gimnasterka" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="gimn-icon-"]:before,
+[class*=" gimn-icon-"]:before {
+  font-family: "gimnasterka" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gimn-icon-shopping-cart:before {
+  content: "\e001";
+}
+.gimn-icon-eye:before {
+  content: "\e002";
+}
+.gimn-icon-male:before {
+  content: "\e003";
+}
+.gimn-icon-boy:before {
+  content: "\e005";
+}
+.gimn-icon-star-empty:before {
+  content: "\e006";
+}
+.gimn-icon-quote:before {
+  content: "\e007";
+}
+.gimn-icon-logotop-mono:before {
+  content: "\e004";
+}
+.gimn-icon-flag:before {
+  content: "\e008";
+}
+.gimn-icon-mail:before {
+  content: "\e009";
+}
+.gimn-icon-call-phone-square:before {
+  content: "\e010";
+}
+.gimn-icon-sd:before {
+  content: "\e000";
+}
+
