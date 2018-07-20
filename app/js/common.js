@@ -85,14 +85,14 @@ $( document ).ready(function() {
 				slidesToShow: 4,
 				infinite: true
 			}
-		}, 
+		},
 		{
 			breakpoint: 992,
 			settings: {
 				slidesToShow: 3,
 				dots: true
 			}
-		}, 
+		},
 		{
 			breakpoint: 768,
 			settings: {
@@ -129,14 +129,14 @@ $( document ).ready(function() {
 				slidesToShow: 4,
 				infinite: true
 			}
-		}, 
+		},
 		{
 			breakpoint: 992,
 			settings: {
 				slidesToShow: 3,
 				dots: true
 			}
-		}, 
+		},
 		{
 			breakpoint: 768,
 			settings: {
@@ -172,14 +172,14 @@ $( document ).ready(function() {
 			slidesToShow: 1,
 			infinite: true
 		}
-	}, 
+	},
 	{
 		breakpoint: 992,
 		settings: {
 			slidesToShow: 1,
 			dots: true
 		}
-	}, 
+	},
 	{
 		breakpoint: 768,
 		settings: {
@@ -205,13 +205,13 @@ var windowWidth = $(window).width();
 
 // collapse какой-то фигни, не помню какой
 	$('.section_reason > .container > .row > .show_more').click(function() {
-		$('.section_reason > .container > .row > .reason_hidden').removeClass('hidden');	    
-		$('.section_reason > .container > .row > .show_more').addClass('showncontent');	    
+		$('.section_reason > .container > .row > .reason_hidden').removeClass('hidden');
+		$('.section_reason > .container > .row > .show_more').addClass('showncontent');
   });
 
   // cookies message
 	$('.cookies_message_wrap > .container > .cookies_message_close').click(function() {
-		$('.cookies_message_wrap').addClass('hidden');	    
+		$('.cookies_message_wrap').addClass('hidden');
   });
 
 
@@ -233,11 +233,54 @@ var windowWidth = $(window).width();
 	  $('.popup-callback h3').text(header);
 	  $('.popup-callback [name=form_subject]').val(info);
 	});
-  
 
 
 
 
+// counter
+
+// function getTimeRemaining(endtime) {
+// 	var t = Date.parse(endtime) - Date.parse(new Date());
+// 	var seconds = Math.floor((t / 1000) % 60);
+// 	var minutes = Math.floor((t / 1000 / 60) % 60);
+// 	var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+// 	var days = Math.floor(t / (1000 * 60 * 60 * 24));
+// 	return {
+// 		'total': t,
+// 		'days': days,
+// 		'hours': hours,
+// 		'minutes': minutes,
+// 		'seconds': seconds
+// 	};
+// }
+
+// function initializeClock(id, endtime) {
+// 	var clock = document.getElementById(id);
+// 	var daysSpan = clock.querySelector('.days');
+// 	var hoursSpan = clock.querySelector('.hours');
+// 	var minutesSpan = clock.querySelector('.minutes');
+// 	var secondsSpan = clock.querySelector('.seconds');
+
+// 	function updateClock() {
+// 		var t = getTimeRemaining(endtime);
+
+// 		daysSpan.innerHTML = t.days;
+// 		hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+// 		minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+// 		secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+// 		if (t.total <= 0) {
+// 			clearInterval(timeinterval);
+// 		}
+// 	}
+
+// 	updateClock();
+// 	var timeinterval = setInterval(updateClock, 1000);
+// }
+
+// var deadline="May 08 2018 23:59:00 GMT+0300"; //for Russia
+// // var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
+// initializeClock('clockdiv', deadline);
 
 
 
@@ -362,7 +405,7 @@ var windowWidth = $(window).width();
 				event.preventDefault();
 				event.stopPropagation();
 				controller.toggle( 'demo-top' );
-			} 
+			}
 		);
 
         $( '.close-sidebar-button' ).on( 'click', function ( event ) {

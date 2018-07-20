@@ -29,7 +29,7 @@ body{
 	height: 450px;
 	margin-top: -600px;
 	.navbar-collapse{
-		.sidebar-drop{			
+		.sidebar-drop{
 			margin-top: 20px;
 			li{
 				margin-bottom: 16px;
@@ -47,9 +47,9 @@ body{
 					background-color: @mainColor;
 					border-radius: 8px;
 					border: 2px solid @secondColor;
-					color: @secondColor;					
+					color: @secondColor;
 				}
-			}		
+			}
 		}
 	}
 	.close-sidebar-button{
@@ -60,7 +60,7 @@ body{
 		padding: 6px 16px;
 		background-color: transparent;
 		border-radius: 8px;
-		border: 2px solid @mainColor;		
+		border: 2px solid @mainColor;
 		transition: @transition;
 		&:hover{
 			background-color: @secondColor;
@@ -69,7 +69,7 @@ body{
 }
 .wrap-section{
 	padding-top: 60px;
-	padding-bottom: 60px; 
+	padding-bottom: 60px;
 	section{
 		h2{
 			text-align: center;
@@ -101,9 +101,9 @@ body{
 	// transition: @transition;
 	&:hover{
 		padding-top: 20px;
-		padding-left: 34px;				
+		padding-left: 34px;
 		border-bottom: 0px solid @secondColor;
-		border-right: 0px solid @secondColor;					
+		border-right: 0px solid @secondColor;
 	}
 }
 // .large_btn_sizes
@@ -172,12 +172,12 @@ h1{
 	background-image: url('../img/video-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center; 
+	background-position: center;
 	width: 100%;
 	z-index: 1;
 	border-bottom: 10px @mainColor inset;
-	
-	.scor-top-nav{		
+
+	.scor-top-nav{
 		position: absolute;
 		width: 100%;
 		min-height: 90px;
@@ -295,7 +295,7 @@ h1{
 			.container-fluid{
 			}
 			.navbar-collapse{
-				ul{					
+				ul{
 					li{
 						a{
 							background-color: @mainColor;
@@ -327,7 +327,7 @@ h1{
 		}
 		.header-content{
 			position: relative;
-			z-index: 5;			
+			z-index: 5;
 			height: 100vh;
 			.header-text{
 				position: relative;
@@ -398,7 +398,7 @@ h1{
 			}
 			.reason-item{
 				margin-bottom: 80px;
-				min-height: 100px;	
+				min-height: 100px;
 				overflow: hidden;
 				.small_btn_sizes{
 					display: block;
@@ -420,7 +420,7 @@ h1{
 						border-bottom: 2px dashed @secondColor;
 						border-top: 2px dashed @secondColor;
 					}
-				}	
+				}
 				.reason-star{
 					&:before{
 						position: relative;
@@ -430,7 +430,7 @@ h1{
 						max-width: 100px;
 						margin: 0 auto 4px;
 						min-height: 20px;
-						counter-increment: section;				
+						counter-increment: section;
 						content: counters(section,".");
 						font-family: @sFont;
 						font-weight: 700;
@@ -446,13 +446,13 @@ h1{
 						width: 60%;
 						max-width: 120px;
 						margin: 0 auto 20px;
-					}				
+					}
 				}
 				.reason-text{
 					border-left: 2px solid @mainColor;
 					p{
 						position: relative;
-					}	
+					}
 				}
 			}
 			.dividers{
@@ -575,7 +575,7 @@ h1{
 						}
 					}
 				}
-			}			
+			}
 		}
 		//end reason-form
 	}
@@ -649,8 +649,8 @@ h1{
 				color: @secondColor;
 				text-align: right;
 				margin-bottom: 4px;
-				margin-right: 10px;		
-				font-size: 16px;		
+				margin-right: 10px;
+				font-size: 16px;
 				&:after{
 					position: absolute;
 					display: inline-block;
@@ -706,7 +706,7 @@ h1{
 					width: auto;
 					color: @thirdColor;
 					content: '\e002';
-					transition: @transition;					
+					transition: @transition;
 				}
 				&:hover{
 					background-color: lighten(@mainColor, 8%);
@@ -738,7 +738,7 @@ h1{
 					width: auto;
 					color: @mainColor;
 					content: '\e001';
-					transition: @transition;					
+					transition: @transition;
 				}
 				&:hover{
 					background-color: darken(@secondColor, 8%);
@@ -748,7 +748,7 @@ h1{
 				}
 			}
 			&:hover{
-				box-shadow: 0 0 14px @mainColor; 
+				box-shadow: 0 0 14px @mainColor;
 				.price-suite-card{
 				}
 			}
@@ -800,10 +800,53 @@ h1{
 				width: 80%;
 				float: right;
 				height: auto;
-				margin: 0px auto;
+				margin: 0px auto 20px;
 				padding: 16px 10px 10px;
 				background-color: @mainColor;
+
 			}
+
+			.counter{
+				&__wrapper{
+					display: flex;
+					flex-flow: nowrap row;
+					justify-content: space-between;
+					width: 100%;
+					max-width: 470px;
+					margin: auto;
+					padding: 0 10px;
+
+				}
+				&__item{
+					min-height: 100px;
+					width: 90px;
+					max-width: 90px;
+					padding: 10px;
+					background-color: @thirdColor;
+					color: @mainColor;
+					text-align: center;
+
+				}
+				&__digit{
+					font-size: 36px;
+					font-weight: @bold;
+
+				}
+				&__text{
+					font-size: 14px;
+
+				}
+
+			}
+
+			.preview-video{
+				width: 80%;
+				max-width: 470px;
+				float: right;
+				clear: both;
+
+			}
+
 			// price_wrap
 			.price_wrap{
 				.side_price{
@@ -858,12 +901,12 @@ h1{
 						}
 					}
 					.kids{
-						&:before{								
+						&:before{
 							content: '\e005';
 						}
 					}
 					.adult{
-						&:before{								
+						&:before{
 							content: '\e003';
 						}
 					}
@@ -1422,7 +1465,7 @@ footer{
 	background-color: transparent;
 	margin: auto;
 	.popup-callback{
-		background-color: fade(#000, 75%);	
+		background-color: fade(#000, 75%);
 		padding: 14px;
 		text-align: center;
 		border: 2px inset @mainColor;
@@ -1443,7 +1486,7 @@ footer{
 				width: 100%;
 				border-radius: 0;
 				border: none;
-				outline: none;			
+				outline: none;
 				text-transform: uppercase;
 				margin-bottom: 36px;
 				background-color: @secondColor;

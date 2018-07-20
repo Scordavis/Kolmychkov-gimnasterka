@@ -2,25 +2,25 @@
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 300;
-  src: local('Comfortaa Light'), local('Comfortaa-Light'), url(https://fonts.gstatic.com/s/comfortaa/v10/r_tUZNl0G8xCoOmp_JkSCvOEPOIfcPv-fZ-WyMUtx48.ttf) format('truetype');
+  src: local('Comfortaa Light'), local('Comfortaa-Light'), url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw5qN_BtCe.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 400;
-  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/-DackuIFgo7Hfy3rR14C36CWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4SYFv.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 700;
-  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI_OEPOIfcPv-fZ-WyMUtx48.ttf) format('truetype');
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw9qR_BtCe.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/RjgO7rYTmqiVp7vzi-Q5UaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0e.ttf) format('truetype');
 }
 
 @charset "UTF-8";
@@ -923,9 +923,50 @@ h1 {
   width: 80%;
   float: right;
   height: auto;
-  margin: 0px auto;
+  margin: 0px auto 20px;
   padding: 16px 10px 10px;
   background-color: #f5f5a5;
+}
+.showroom .counter .row .counter__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: nowrap row;
+      -ms-flex-flow: nowrap row;
+          flex-flow: nowrap row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 470px;
+  margin: auto;
+  padding: 0 10px;
+}
+.showroom .counter .row .counter__item {
+  min-height: 100px;
+  width: 90px;
+  max-width: 90px;
+  padding: 10px;
+  background-color: #1d291e;
+  color: #f5f5a5;
+  text-align: center;
+}
+.showroom .counter .row .counter__digit {
+  font-size: 36px;
+  font-weight: 700;
+}
+.showroom .counter .row .counter__text {
+  font-size: 14px;
+}
+.showroom .counter .row .preview-video {
+  width: 80%;
+  max-width: 470px;
+  float: right;
+  clear: both;
 }
 .showroom .counter .row .price_wrap .side_price {
   width: 100%;

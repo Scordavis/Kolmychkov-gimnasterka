@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"src"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"t",
+				"task"
+			],
+			[
+				"css",
+				"cssnano"
+			],
+			[
+				"browser",
+				"browserSync"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"get_the_I",
+				"get_the_ID\tWP Function"
+			],
+			[
+				"hasc",
+				"has_category\tWP Function"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"get_ca",
+				"get_cat_name\tWP Function"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"get_excerpt",
+				"get_the_excerpt"
+			],
+			[
+				"get_cat",
+				"get_cat_name"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"borderr",
+				"border-radius"
+			],
+			[
+				"the_po",
+				"the_post_thumbnail"
+			],
+			[
+				"has_p",
+				"has_post_thumbnail"
+			],
+			[
+				"sl",
+				"slider-1@0,5x.jpg\tw:960 h:384"
+			],
+			[
+				"bg",
+				"bg-team@0,5x.jpg\tw:960 h:350"
+			],
+			[
+				"jpg",
+				"bg-delivery@0,5x.jpg\tw:960 h:300"
+			],
+			[
+				"bg-delivery",
+				"bg-delivery@0,5x.jpg\tw:960 h:300"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"oe",
+				"overflow-x"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"get_post_meta",
+				"get_post_meta\tWP Function"
+			],
+			[
+				"add_th",
+				"add_theme_support"
+			],
+			[
+				"wpf",
+				"wp_footer"
+			],
+			[
+				"show",
+				"show_admin_bar"
+			],
+			[
+				"get_template_directory_uri",
+				"get_template_directory_uri\tWP Function"
+			],
+			[
+				"get_template",
+				"get_template_directory"
+			],
+			[
+				"gettem",
+				"get_template"
+			],
+			[
+				"wph",
+				"wp_head"
+			],
+			[
+				"h",
+				"header"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"repsol-elit",
+				"repsol-elite-neo-5w20.jpg\tw:100 h:77"
+			],
+			[
+				"repsol-elite",
+				"repsol-elite-prado-0w20.jpg\tw:100 h:77"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 94.0,
+		"last_filter": "LiveReload: Enable/disable plugins",
+		"selected_items":
+		[
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"live",
+				"Snippet: Create new LiveReload plugin"
+			],
+			[
+				"packe",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"package control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/WebSerwer/domains/gimnasterka-vov.ru/app/index.html",
+		"/D/WebSerwer/domains/gimnasterka-vov.ru/package.json",
+		"/D/WebSerwer/domains/gimnasterka-vov.ru/gulpfile.js",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/less/_fonts.less",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/less/_theme_color.less",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/less/main.less",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/less/libs.less",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/index.html",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/gulpfile.js",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/package.json",
+		"/D/DreamWeaver/garage/css/style.less",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/LESS/README.md",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/css/main.css",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/less/_media.less",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/js/common.js",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/css/libs.css",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/libs/magnific-popup/dist/take.css",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/.bowerrc",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/js/libs.min.js",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/app/css/_media.css",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/_optimized_gulp_sass/sass/header.sass",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/_clean_sass/mail.php",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/_optimized_gulp_sass/gulpfile.js",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/_optimized_gulp_sass/sass/fonts.sass",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/_optimized_gulp_sass/sass/_media.sass",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/_optimized_gulp_sass/package.json",
+		"/D/WebSerwer/domains/gimnasterka-bootstrap.ru/_optimized_gulp_sass/sass/_vars.less",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/header.php",
+		"/C/Users/User/AppData/Local/Temp/scp19640/wp-garage.testlanding.ru/wp-content/themes/garagetheme/index.php",
+		"/C/Users/User/AppData/Local/Temp/scp15994/wp-garage.testlanding.ru/wp-content/themes/garagetheme/header.php",
+		"/C/Users/User/AppData/Local/Temp/scp27822/wp-garage.testlanding.ru/wp-content/themes/garagetheme/footer.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/footer.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/functions.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/css/style.less",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/js/common.js",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/index.php",
+		"/C/Users/User/AppData/Local/Temp/scp13689/wp-garage.testlanding.ru/wp-content/themes/garagetheme/style.css",
+		"/D/WebSerwer/domains/garage.ks.ua/MyThemeagragarga/index.php",
+		"/D/WebSerwer/domains/garage.ks.ua/MyThemeagragarga/header.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/index-save.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/example-collapse.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/css/style.css",
+		"/D/DreamWeaver/!!!Scripts/Галереи Presentation/MixItUps/dist/mixitup.min.js",
+		"/D/DreamWeaver/!!!Scripts/Галереи Presentation/MixItUps/demos/mock-api.js",
+		"/D/DreamWeaver/!!!Scripts/Галереи Presentation/MixItUps/dist/mixitup.js",
+		"/D/DreamWeaver/!!!Scripts/Tabs/Easy-Responsive-Tabs-to-Accordion-master/README.md",
+		"/C/Users/User/AppData/Local/Temp/scp28807/gimnasterka-vov.ru/index.html",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/_backup_УРА_подгружаются_записи и подкатегории/index.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/_backup_УРА_подгружаются_записи и подкатегории/css/style.less",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/index.html",
+		"/D/DreamWeaver/!!!Scripts/Tabs/Responsive-Tabs-master/README.md",
+		"/D/DreamWeaver/!!!Scripts/Tabs/Responsive-Tabs-master/demo.html",
+		"/D/DreamWeaver/!!!Scripts/Tabs/Responsive-Tabs-master/test/jquery.responsiveTabs-test.js",
+		"/D/DreamWeaver/!!!Scripts/Tabs/Responsive-Tabs-master/test/fixture.html",
+		"/D/DreamWeaver/!!!Scripts/Tabs/Easy-Responsive-Tabs-to-Accordion-master/css/easy-responsive-tabs.css",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/_backup — копия/css/style.less",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/_backup/index.html",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/_backup/css/style.css",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_tag.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_wrapping.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/bh_tag.sublime-settings",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/asdas.html",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/theme-options.php",
+		"/D/DreamWeaver/wordpress_stuff/function.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/garagetheme/style.css",
+		"/D/WebSerwer/domains/WP подсказки по плагину sublime",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/twentyseventeen/style.css",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-content/themes/twentysixteen/style.css",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-config.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-config-sample.php",
+		"/D/WebSerwer/domains/garage.ks.ua/wp-settings.php",
+		"/D/WebSerwer/domains/localhost/index.php",
+		"/D/WebSerwer/userdata/config/Memcache.php",
+		"/D/WebSerwer/userdata/config/phpredisadmin_config.inc.php",
+		"/D/WebSerwer/userdata/config/phppgadmin_config.inc.php",
+		"/D/WebSerwer/userdata/config/phpmyadmin_config.inc.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Installed Packages/One Dark Color Scheme.sublime-package",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Installed Packages/One Dark Material - Theme.sublime-package",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
+		"/D/DreamWeaver/Gimnasterka-old-muse/css/index.css",
+		"/D/DreamWeaver/Gimnasterka-old-muse/index.html",
+		"/D/DreamWeaver/Gimnasterka-old-muse/backup/css/index1.css",
+		"/D/DreamWeaver/Gimnasterka-old-muse/css/site_global.css",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/DreamWeaver/garage/index.html",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.last-run",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/BufferScroll.sublime-settings"
+	],
+	"find":
+	{
+		"height": 57.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"del",
+			"reload",
+			"@media (max-width: 767px) {",
+			"@media (max-width: 767px) { ",
+			"@media (max-width: 767px) { }",
+			"@media (max-width: 767px) {",
+			"@media (max-width: 767px) { ",
+			"@media (max-width: 767px) {$}",
+			"@media (max-width: 767px) {*}",
+			"@media (max-width: 767px) {[]}",
+			"@media (max-width: 767px) { }",
+			"@media (max-width: 767px) {}",
+			"sto",
+			"hidden-sm hidden-xs",
+			"-main-link",
+			"hidden-sm hidden-xs",
+			"true",
+			"this.enable=true;",
+			"animation",
+			"scor-tab-content",
+			"в апр",
+			"в апреле!",
+			" <li><a href=\"<?php echo get_category_link($category->term_id); ?>\" ><?php echo $category->name; ?></a></li>",
+			".main-row",
+			" .main-row",
+			".third-screen",
+			"nav nav-tabs nav-stacked scor-nav-tabs-inner resp-tabs-list",
+			"tab-pane",
+			"tab-pane in",
+			"role=\"tab\" data-toggle=\"tab\"",
+			"role=\"presentation\" ",
+			"role=\"tablist\"",
+			"tab-content",
+			"tab-pane",
+			"tires",
+			"#oil",
+			"img",
+			"'cat=",
+			"tab",
+			"<div class=\"panel-heading\" role=\"tab\" id=\"akb-he",
+			"akb-collapseOne",
+			"One",
+			"heading3",
+			"akb-collapseOne",
+			"akb",
+			"top",
+			"h3",
+			" class=\"teamer-name\"",
+			"h3",
+			"team-item",
+			"footer",
+			"get_post_meta",
+			"get",
+			"работ в нашем СТО",
+			"delivery-article",
+			"about-content",
+			"section-heading",
+			" class=\"slide__text-heading\"",
+			"slide__text-heading",
+			".slide__text-heading",
+			"toolbbar",
+			"-ms",
+			"-webkit",
+			"wheels-",
+			"wheels-accordion",
+			"oil-collapseTwo",
+			"headingOne",
+			"wheels-collapsetwo",
+			"wheels-collapseOne",
+			"wheels-headingTwo",
+			"wheels-headingOne",
+			"wheels-accordion",
+			"headingOne",
+			"oil-collapseOne",
+			"аккумуляторы",
+			"akb-",
+			"аккумуляторы",
+			"akb-",
+			"car-",
+			"автозапчасти",
+			"масло",
+			"tab-tears-accordion",
+			"card-wrapper-collapse",
+			"repsol",
+			"REPSOL",
+			"Официальный",
+			"Оригинальные",
+			"оригинальные",
+			"slide__bg",
+			"u11293-4",
+			"«Красная площадь 1»",
+			"#u1972",
+			"u106-4",
+			"id=\"u106-4",
+			"id=\"u106-4\"",
+			"duplic",
+			"ctrl+b",
+			"ctrl+d\n",
+			"},\n",
+			"ctrl+keypad",
+			"ctrl+keypad_",
+			"ctrl+keypad_p",
+			"ctrl+keypad",
+			"ctrl+keypad_pl",
+			"ctrl+keypad_1",
+			"ctrl+keypad_dot",
+			"ctrl+keypad_enter",
+			"alt+shift+f",
+			"ctrl+k",
+			"ctrl+d",
+			"shift",
+			"ctrl+shift+d",
+			"ctrl+shift+b"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"-collapse-link",
+			" ",
+			" <li><a></a></li>",
+			"nav nav-tabs nav-stacked scor-nav-tabs-inner resp-tabs-container tab_identifier_parent",
+			"scor-tab-pane",
+			"",
+			"scor-tab-content",
+			"wheels",
+			"",
+			"akb-",
+			"wheels-accordion1",
+			"oil-collapseTwo",
+			"Покрышки",
+			"wheels-",
+			"Запчасти",
+			"parts-",
+			"akb-",
+			"аккумуляторы",
+			"автозапчасти",
+			"«Красная площадь»"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 44.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 62.0
+	},
+	"pinned_build_system": "",
+	"project": "gimnasterka.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
