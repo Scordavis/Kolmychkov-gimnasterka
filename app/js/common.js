@@ -200,7 +200,7 @@ $( document ).ready(function() {
 
 // collapse reasons
 var windowWidth = $(window).width();
-  if(windowWidth <= 500) //for iPad & smaller devices
+  if(windowWidth <= 767) //for iPad & smaller devices
      $('.reason_hidden').addClass('hidden');
 
 // collapse какой-то фигни, не помню какой

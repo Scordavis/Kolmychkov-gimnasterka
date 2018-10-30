@@ -315,7 +315,7 @@ h1 {
   top: 8px;
   display: inline-block;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   margin: 0 24px;
 }
@@ -1701,7 +1701,8 @@ footer .developer .scor_davis a:hover:before {
     height: auto;
   }
   .header-section .scor-top-nav .top-nav-container .logo-content-wrapper .logophone p {
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0 10px;
   }
   .header-section .scor-top-nav .top-nav-container .logo-content-wrapper .logodescr {
     font-size: 18px;
@@ -1725,8 +1726,8 @@ footer .developer .scor_davis a:hover:before {
     margin-bottom: 10px;
   }
   .header-section .scor-top-nav .top-nav-container .logo-content-wrapper .logophone p {
-    font-size: 14px;
-    margin: 0 14px;
+    font-size: 12px;
+    margin: 0 8px 0 0;
   }
   .header-section .scor-top-nav .top-nav-container .logo-content-wrapper .logodescr {
     font-size: 14px;
