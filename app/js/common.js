@@ -23,30 +23,23 @@ $( document ).ready(function() {
 
 	// masked input
 	$(function () {
-	  $.mask.definitions['~'] = "[+-]";
+		$.mask.definitions['~'] = "[+-]";
 	  //$("#date").mask("99/99/9999",{completed:function(){alert("completed!");}});
 	  //$("#phone").mask("(999) 999-9999");
 	  //$("#phoneExt").mask("(999) 999-9999? x99999");
 	  $(".masked-input").mask("8(999)-999-99-99", {
-	      placeholder: " "
+	  	placeholder: " "
 	  });
-	  //$("#tin").mask("99-9999999");
-	  //$("#ssn").mask("999-99-9999");
-	  //$("#product").mask("a*-999-a999", { placeholder: " " });
-	  //$("#eyescript").mask("~9.99 ~9.99 999");
-	  //$("#po").mask("PO: aaa-999-***");
-	  //$("#pct").mask("99%");
-	  //$("input").blur(function() {
-	  //    $("#info").html("Unmasked value: " + $(this).mask());
-	  //}).dblclick(function() {
-	  //    $(this).unmask();
-	  //});
 	});
 
 
 
 		// equalHeights
 	$('.goodies_descr').equalHeights();
+
+
+
+
 
 	// form
 		$("form").submit(function() { //Change
@@ -65,6 +58,9 @@ $( document ).ready(function() {
 			});
 			return false;
 		});
+
+
+
 
 	//slick slider
 	$(".promo-carousel").slick({
@@ -284,14 +280,10 @@ var windowWidth = $(window).width();
 
 
 
-
-
-
-
-
   // slidebar
 
-( function ( $ ) {
+( function ( $ )
+	{
         // Initialize Slidebars
         // Init
 		var controller = new slidebars();
@@ -356,49 +348,50 @@ var windowWidth = $(window).width();
 		$( controller.events ).on( 'closing', function ( event ) {
 			$( '[canvas]' ).removeClass( 'js-close-any' );
 		} );
-        // Left demo
-        $( '.js-open-demo-left' ).on( 'click', function ( event ) {
+    // Left demo
+    $( '.js-open-demo-left' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-left' );
 		} );
 
-        $( '.js-toggle-demo-left' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-left' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-left' );
 		} );
 
-        $( '.js-close-demo-left' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-left' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-left' );
 		} );
 
-        // Right demo
-        $( '.js-open-demo-right' ).on( 'click', function ( event ) {
+    // Right demo
+    $( '.js-open-demo-right' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-right' );
 		} );
 
-        $( '.js-toggle-demo-right' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-right' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-right' );
 		} );
 
-        $( '.js-close-demo-right' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-right' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-right' );
 		} );
 
-        // Top demo
-  //       $( '#slidbar-open' ).on( 'click', function ( event ) {
+    // Top demo
+	  //   $( '#slidbar-open' ).on( 'click', function ( event ) {
 		// 	event.preventDefault();
 		// 	event.stopPropagation();
 		// 	controller.open( 'demo-top' );
+		//
 		// } );
 
     $( '#slidbar-open' ).on( 'click', function ( event ) {
@@ -408,7 +401,7 @@ var windowWidth = $(window).width();
 			}
 		);
 
-        $( '.close-sidebar-button' ).on( 'click', function ( event ) {
+    $( '.close-sidebar-button' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-top' );
@@ -427,102 +420,102 @@ var windowWidth = $(window).width();
 			controller.toggle( 'demo-bottom' );
 		} );
 
-        $( '.js-close-demo-bottom' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-bottom' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-bottom' );
 		} );
 
-        // Left 2 demo
-        $( '.js-open-demo-left-2' ).on( 'click', function ( event ) {
+    // Left 2 demo
+    $( '.js-open-demo-left-2' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-left-2' );
 		} );
 
-        $( '.js-toggle-demo-left-2' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-left-2' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-left-2' );
 		} );
 
-        $( '.js-close-demo-left-2' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-left-2' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-left-2' );
 		} );
 
         // Reveal demo
-        $( '.js-open-demo-reveal' ).on( 'click', function ( event ) {
+    $( '.js-open-demo-reveal' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-reveal' );
 		} );
 
-        $( '.js-toggle-demo-reveal' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-reveal' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-reveal' );
 		} );
 
-        $( '.js-close-demo-reveal' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-reveal' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-reveal' );
 		} );
 
         // Push demo
-        $( '.js-open-demo-push' ).on( 'click', function ( event ) {
+    $( '.js-open-demo-push' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-push' );
 		} );
 
-        $( '.js-toggle-demo-push' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-push' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-push' );
 		} );
 
-        $( '.js-close-demo-push' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-push' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-push' );
 		} );
 
         // Overlay demo
-        $( '.js-open-demo-overlay' ).on( 'click', function ( event ) {
+    $( '.js-open-demo-overlay' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-overlay' );
 		} );
 
-        $( '.js-toggle-demo-overlay' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-overlay' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-overlay' );
 		} );
 
-        $( '.js-close-demo-overlay' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-overlay' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-overlay' );
 		} );
 
         // Shift demo
-        $( '.js-open-demo-shift' ).on( 'click', function ( event ) {
+    $( '.js-open-demo-shift' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-shift' );
 		} );
 
-        $( '.js-toggle-demo-shift' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-shift' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-shift' );
 		} );
 
-        $( '.js-close-demo-shift' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-shift' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-shift' );
@@ -531,26 +524,26 @@ var windowWidth = $(window).width();
         // Mobile only
         var windowWidth,
         mobileOnly = function () {
-            windowWidth = $( window ).width();
+        	windowWidth = $( window ).width();
 
-            if ( windowWidth > 600 ) {
-                controller.close( 'demo-mobile-only' );
-            }
+        	if ( windowWidth > 600 ) {
+        		controller.close( 'demo-mobile-only' );
+        	}
         };
 
         mobileOnly();
         $( window ).on( 'resize', mobileOnly );
 
         $( '.js-open-demo-mobile-only' ).on( 'click', function ( event ) {
-			event.preventDefault();
-			event.stopPropagation();
+        	event.preventDefault();
+        	event.stopPropagation();
 
-            if ( windowWidth < 601 ) {
-                controller.open( 'demo-mobile-only' );
-            }
+        	if ( windowWidth < 601 ) {
+        		controller.open( 'demo-mobile-only' );
+        	}
 		} );
 
-        $( '.js-toggle-demo-mobile-only' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-mobile-only' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 
@@ -559,139 +552,139 @@ var windowWidth = $(window).width();
             }
 		} );
 
-        $( '.js-close-demo-mobile-only' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-mobile-only' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-mobile-only' );
 		} );
 
-        // Custom fixed width
-        $( '.js-open-demo-custom-fixed-width' ).on( 'click', function ( event ) {
+    // Custom fixed width
+    $( '.js-open-demo-custom-fixed-width' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-custom-fixed-width' );
 		} );
 
-        $( '.js-toggle-demo-custom-fixed-width' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-custom-fixed-width' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-custom-fixed-width' );
 		} );
 
-        $( '.js-close-demo-custom-fixed-width' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-custom-fixed-width' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-custom-fixed-width' );
 		} );
 
-        // Custom fluid height
-        $( '.js-open-demo-custom-fluid-height' ).on( 'click', function ( event ) {
+    // Custom fluid height
+    $( '.js-open-demo-custom-fluid-height' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-custom-fluid-height' );
 		} );
 
-        $( '.js-toggle-demo-custom-fluid-height' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-custom-fluid-height' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-custom-fluid-height' );
 		} );
 
-        $( '.js-close-demo-custom-fluid-height' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-custom-fluid-height' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-demo-custom-fluid-height' );
 		} );
 
-        // Custom responsive width
-        $( '.js-open-demo-custom-responsive-width' ).on( 'click', function ( event ) {
+    // Custom responsive width
+    $( '.js-open-demo-custom-responsive-width' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-custom-responsive-width' );
 		} );
 
-        $( '.js-toggle-demo-custom-responsive-width' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-custom-responsive-width' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-custom-responsive-width' );
 		} );
 
-        $( '.js-close-demo-custom-responsive-width' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-custom-responsive-width' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-custom-responsive-width' );
 		} );
 
         // Custom transition duration
-        $( '.js-open-demo-custom-transition-duration' ).on( 'click', function ( event ) {
+    $( '.js-open-demo-custom-transition-duration' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-custom-transition-duration' );
 		} );
 
-        $( '.js-toggle-demo-custom-transition-duration' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-custom-transition-duration' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-custom-transition-duration' );
 		} );
 
-        $( '.js-close-demo-custom-transition-duration' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-custom-transition-duration' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-custom-transition-duration' );
 		} );
 
-        // Custom transition duration 2
-        $( '.js-open-demo-custom-transition-duration-2' ).on( 'click', function ( event ) {
+    // Custom transition duration 2
+    $( '.js-open-demo-custom-transition-duration-2' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-custom-transition-duration-2' );
 		} );
 
-        $( '.js-toggle-demo-custom-transition-duration-2' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-custom-transition-duration-2' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-custom-transition-duration-2' );
 		} );
 
-        $( '.js-close-demo-custom-transition-duration-2' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-custom-transition-duration-2' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-custom-transition-duration-2' );
 		} );
 
-        // Events
-        $( '.js-events-init' ).on( 'click', function ( event ) {
+    // Events
+    $( '.js-events-init' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
             controller.init();
 		} );
 
-        $( '.js-events-exit' ).on( 'click', function ( event ) {
+    $( '.js-events-exit' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
             controller.exit();
 		} );
 
-        $( '.js-events-css' ).on( 'click', function ( event ) {
+    $( '.js-events-css' ).on( 'click', function ( event ) {
             event.preventDefault();
             event.stopPropagation();
             controller.css();
         } );
 
-        $( '.js-open-demo-events' ).on( 'click', function ( event ) {
+    $( '.js-open-demo-events' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-events' );
 		} );
 
-        $( '.js-toggle-demo-events' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-events' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-events' );
 		} );
 
-        $( '.js-close-demo-events' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-events' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-events' );
@@ -699,53 +692,53 @@ var windowWidth = $(window).width();
 
         // Event demo listeners
         if ( /demos\/events/.test( window.location.href ) ) {
-            $( controller.events ).on( 'init', function () {
-                console.log( 'init - Slidebars has been initialized.' );
-            } );
+        	$( controller.events ).on( 'init', function () {
+        		console.log( 'init - Slidebars has been initialized.' );
+        	} );
 
-            $( controller.events ).on( 'exit', function () {
-                console.log( 'exit - Slidebars has been disabled.' );
-            } );
+        	$( controller.events ).on( 'exit', function () {
+        		console.log( 'exit - Slidebars has been disabled.' );
+        	} );
 
-            $( controller.events ).on( 'css', function () {
-                console.log( 'css - Slidebars css has been reset.' );
-            } );
+        	$( controller.events ).on( 'css', function () {
+        		console.log( 'css - Slidebars css has been reset.' );
+        	} );
 
-            $( controller.events ).on( 'opening', function ( event, id ) {
-                if ( id === 'demo-events' ) {
-                    console.log( 'opening - The events demo Slidebar is opening.' );
-                }
-            } );
+        	$( controller.events ).on( 'opening', function ( event, id ) {
+        		if ( id === 'demo-events' ) {
+        			console.log( 'opening - The events demo Slidebar is opening.' );
+        		}
+        	} );
 
-            $( controller.events ).on( 'opened', function ( event, id ) {
-                if ( id === 'demo-events' ) {
-                    console.log( 'opened - The events demo Slidebar is opened.' );
-                }
-            } );
+        	$( controller.events ).on( 'opened', function ( event, id ) {
+        		if ( id === 'demo-events' ) {
+        			console.log( 'opened - The events demo Slidebar is opened.' );
+        		}
+        	} );
 
-            $( controller.events ).on( 'closing', function ( event, id ) {
-                if ( id === 'demo-events' ) {
-                    console.log( 'closing - The events demo Slidebar is closing.' );
-                }
-            } );
+        	$( controller.events ).on( 'closing', function ( event, id ) {
+        		if ( id === 'demo-events' ) {
+        			console.log( 'closing - The events demo Slidebar is closing.' );
+        		}
+        	} );
 
-            $( controller.events ).on( 'closed', function ( event, id ) {
-                if ( id === 'demo-events' ) {
-                    console.log( 'closed - The events demo Slidebar is closed.' );
-                }
-            } );
+        	$( controller.events ).on( 'closed', function ( event, id ) {
+        		if ( id === 'demo-events' ) {
+        			console.log( 'closed - The events demo Slidebar is closed.' );
+        		}
+        	} );
         }
 
         // Callbacks demo
-        $( '.js-callbacks-init' ).on( 'click', function ( event ) {
-			event.preventDefault();
-			event.stopPropagation();
-            controller.init( function () {
-                console.log( 'This message was logged by a callback after initializing Slidebars.' );
-            } );
-		} );
+    $( '.js-callbacks-init' ).on( 'click', function ( event ) {
+        	event.preventDefault();
+        	event.stopPropagation();
+        	controller.init( function () {
+        		console.log( 'This message was logged by a callback after initializing Slidebars.' );
+        	} );
+        } );
 
-        $( '.js-callbacks-exit' ).on( 'click', function ( event ) {
+    $( '.js-callbacks-exit' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
             controller.exit( function () {
@@ -753,7 +746,7 @@ var windowWidth = $(window).width();
             } );
 		} );
 
-        $( '.js-callbacks-css' ).on( 'click', function ( event ) {
+    $( '.js-callbacks-css' ).on( 'click', function ( event ) {
             event.preventDefault();
             event.stopPropagation();
             controller.css( function () {
@@ -761,7 +754,7 @@ var windowWidth = $(window).width();
             } );
         } );
 
-        $( '.js-open-demo-callbacks' ).on( 'click', function ( event ) {
+    $( '.js-open-demo-callbacks' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.open( 'demo-callbacks', function () {
@@ -769,7 +762,7 @@ var windowWidth = $(window).width();
             } );
 		} );
 
-        $( '.js-toggle-demo-callbacks' ).on( 'click', function ( event ) {
+    $( '.js-toggle-demo-callbacks' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.toggle( 'demo-callbacks', function () {
@@ -777,7 +770,7 @@ var windowWidth = $(window).width();
             }  );
 		} );
 
-        $( '.js-close-demo-callbacks' ).on( 'click', function ( event ) {
+    $( '.js-close-demo-callbacks' ).on( 'click', function ( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 			controller.close( 'demo-callbacks', function () {
@@ -785,7 +778,7 @@ var windowWidth = $(window).width();
             }  );
 		} );
 
-      } ) ( jQuery );
+  } ) ( jQuery );
 
 
 
